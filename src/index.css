@@ -96,12 +96,13 @@ select {
   justify-content: center;
   align-items: center;
   gap: 1.5em;
+  border: 2px solid var(--clr-green);
+
 
   &:hover {
     background-color: transparent;
 
     color: var(--clr-green);
-    border: 2px solid var(--clr-green);
   }
 }
 
